@@ -1,0 +1,1 @@
+It is more important to gain full understanding of the work because then you can anything given to you on your own without relying on any resources but your own understanding.

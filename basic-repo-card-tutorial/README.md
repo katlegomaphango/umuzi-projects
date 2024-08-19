@@ -19,7 +19,9 @@ What is more important: rushing to complete as many cards as possible? Or making
 Use the Github user interface (website) to upload your file into the repository. Make sure that you can see the file in Github when you look at your repo’s files.
 
 ## 3. Ask for a review (on Tilde)
+
 Now go to your Tilde board and click on the “Request Review” button on the project card. You’ll see the card move across to the Review column.
 
 ## That’s all :)
+
 By putting your card in the “review” column you are basically saying that you believe that the main branch of your repo meets all the project requirements and is ready for a competence review.

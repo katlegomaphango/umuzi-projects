@@ -1,0 +1,1 @@
+I am presently employed as a part-time sales assistant, and my current financial responsibility revolves around repaying the Income Share Agreement (ISA) that I was fortunate to receive during my tenure at CodeSpace Academy.

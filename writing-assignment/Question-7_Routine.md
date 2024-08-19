@@ -1,0 +1,3 @@
+My typical routine involves staying up late into the early morning hours, often past midnight. Upon waking up, I prioritize the organization of my living space by cleaning my room and preparing for the day. Subsequently, I tackle various household chores and engage in yard cleaning to maintain a tidy environment.
+
+After completing these tasks, I indulge in some leisure time, either reading a book or immersing myself in anime manga. Following this recreational break, I take a short one-hour nap to recharge. By the time I wake up, typically past 2 pm, I settle down at my desk to work on my computer. This work session extends into the early morning hours, after which I conclude my day by getting some sleep again.

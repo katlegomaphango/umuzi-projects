@@ -1,0 +1,14 @@
+{
+  "name": "animals",
+  "version": "1.0.0",
+  "description": "```\r ├── src\r |   └── animals.js\r └── package.json\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Katlego Maphango",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.5.0"
+  }
+}

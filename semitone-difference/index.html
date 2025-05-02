@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎹Semitone Calculator</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="body-container">
+        <div class="content-container">
+            <div class="content">
+                <h1 class="header">🎹Semitone Calculator🎹</h1>
+                <p class="streak">Streak: <span class="streak-num">0</span></p>
+                <div class="message"></div>
+                <div class="content-notes">
+                    <div class="notes-div">
+                        <p>Current Notes:</p>
+                        <span class="note1"></span><span class="note2"></span>
+                    </div>
+                    <button class="btn randomizeBtn">
+                        Randomize Notes
+                    </button>
+                    <div>
+                        <label>Enter Answer:</label>
+                        <br>
+                        <input type="number" class="answer-input" placeholder="0" min="1" max="11">
+                    </div>
+
+                    <div class="flexBtns">
+                        <button class="btn checkAnswerBtn">
+                            Check Answer
+                        </button>
+                        <br>
+                        <button class="btn giveupBtn">
+                            Give up
+                        </button>
+                    </div>
+                    <br>
+                    <button class="btn restartBtn">
+                        Restart
+                    </button>
+                </div>
+                <div class="give-up"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

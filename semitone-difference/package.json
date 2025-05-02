@@ -1,0 +1,20 @@
+{
+  "name": "semitone-difference",
+  "version": "1.0.0",
+  "description": "semitone difference - basic algorithm (199)\r For raw project instructions see: http://syllabus.africacode.net/projects/semitone-challenge/basic-algorithm/",
+  "main": "jam_buddy.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack"
+  },
+  "author": "Katlego Maphango",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.7.1",
+    "jsdom": "^26.1.0"
+  },
+  "dependencies": {
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  }
+}

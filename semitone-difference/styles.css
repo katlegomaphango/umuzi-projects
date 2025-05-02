@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./public/images/bg.svg);
+    background-color: rgb(156, 84, 211);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    box-shadow: 6px 19px 23px 1px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    color: #3e3e3e;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(180, 0, 218);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content-notes {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes-div {
+    color: #3e3e3e;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.notes-div span {
+    display: inline-block;
+    border: 1px solid;
+    color: rgb(180, 0, 218);
+    width: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(180, 0, 218);
+    color: white;
+    text-align: center;
+    box-shadow: 6px 19px 23px 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 7px 17px;
+    border: none;
+}
+
+.flexBtns {
+    display: flex;
+    gap: 0.5rem;
+}
+
+form {
+    margin-top: 1.5rem;
+}
+
+label {
+    color: #3e3e3e;
+    font-size: 2rem;
+}
+
+input {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    max-width: 200px;
+    border-color: rgb(180, 0, 218);
+}
+
+.give-up {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noteSpan {
+    display: inline-block;
+    width: fit-content;
+    padding: 0 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.noteSpanCurrent {
+    color: rgb(180, 0, 218);
+    font-weight: bolder;
+}
+
+.streak {
+    font-size: 1.2rem;
+}
+
+.streak-num {
+    color: rgb(180, 0, 218);
+    font-weight: bold;
+}
+
+.displayAllNotes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

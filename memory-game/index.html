@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="root">
+        <div class="container">
+            <div class="game-container">
+                <h1 class="title">Memory Game</h1>
+                <div class="board-container">
+                    <div class="board tiles-container">
+                        <div class="tile-container">
+                            <img src="./public/ant.png" alt="ant" class="ant">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/ant.png" alt="ant" class="ant">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/ant.png" alt="ant" class="ant">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/ant.png" alt="ant" class="ant">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public//berry.png" alt="berry" class="berry">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public//berry.png" alt="berry" class="berry">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public//berry.png" alt="berry" class="berry">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public//berry.png" alt="berry" class="berry">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/bomb.png" alt="bomb" class="bomb">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/bomb.png" alt="bomb" class="bomb">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/bomb.png" alt="bomb" class="bomb">
+                        </div>
+                        <div class="tile-container">
+                            <img src="./public/bomb.png" alt="bomb" class="bomb">
+                        </div>
+                    </div>
+                    <div class="score-board">
+                        <h4 class="score-board_text">
+                            Score <span class="score-board_score">0</span>
+                        </h4>
+                    </div>
+                    <div class="complete" style="display: none;">
+                        Congratulations!!! <br> You have matched all image pairs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/memory_game.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./bg.svg);
+    background-color: rgba(140,31,169,255);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.root {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* .container {
+    border: 1px dashed yellow;
+} */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: yellowgreen;
+    font-size: 2.5rem;
+}
+
+.board-container {
+    margin-top: 2rem;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tile-container {
+    width: 5rem;
+    height: 5rem;
+    background-color: whitesmoke;
+}
+
+.score-board_text {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.score-board_score {
+    background-color: rgb(240, 242, 87);
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+img {
+    display: none;
+}
+
+.hide-img {
+    display: none;
+}
+
+.show-img {
+    display: block;
+}
+
+.complete {
+    display: none;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: lawngreen;
+}
